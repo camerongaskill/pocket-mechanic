@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+}
+
+header {
+    border-bottom: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+header h1{
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+}
+
+img.header-logo {
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.thumbnail {
+    height: 150px;
+    width: 150px;
+}
+
+body{
+}
+
+ul{
+    list-style: none;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+}
+
+li h3{
+    margin-top: 3px;
+    margin-bottom: 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+li p{
+    margin-top: 0;
+    text-align: center;
+    padding-right: 3px;
+}
+
+a{
+    color: black;
+}
+
+a:link{
+    text-decoration: none;
+}
